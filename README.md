@@ -1,5 +1,5 @@
 # FISC-Assembler-and-Simulator
-
+ 
 I have created an assembler that converts FISC (four instruction set computers) assembly code to hexadecimal. It takes in an assembly file as input and generates an output of hexadecimal values on a separate file. The assembler first converts each assembly instruction to machine code (1's and 0's). The machine code is then converted to a hexadecimal value and written to the output file. I also created a simulator which display the execution of the program line by line. It first takes the input file (the assembler generated hex file) and converts it to machine code. It also outputs a step by step visualization stating the values of each register, the value of the zero flag, and the program count after the execution of each instruction. It also behaves as a disassembler as it generates the assembly instruction for the respective machine code.
 
 Command to run the assembler:
