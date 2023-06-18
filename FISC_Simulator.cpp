@@ -76,9 +76,6 @@ class Splitter{
                 this->F->HexFile.push_back(line);
             }
 
-            for (unsigned int i = 0; i < this->F->HexFile.size(); ++i){
-                cout << "File: " << this->F->HexFile[i] << endl;
-            }
             this->processfile();
         }
         string binaryToHex(const string& binary) {
